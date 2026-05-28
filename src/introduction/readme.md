@@ -38,3 +38,17 @@ Naming Conventions
 
     PascalNamingConvention for naming classes
     camelNamingConvention for naming  methods
+
+How Java Code Gets Executed
+There are two steps involved - Compilation and Execution
+
+    In Compilation, the Java Compiler compiles the java(Source code) into a format called the Java Byte Code. Run
+        '''
+            javac Main.java
+        '''
+
+    In Execution, the Java Virtual Machine translates the Java Byte Code to Native Code for the underlying Operating System.
+                This is why Java apps are platform independent. Only requirement is to have a Java Runtime Environment
+        '''
+            java <full path to the class> com.package.Main
+        '''
