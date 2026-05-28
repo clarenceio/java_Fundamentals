@@ -17,5 +17,24 @@ public class Strings {
         System.out.println(myMessage); //toLowerCase - returns a new string
         System.out.println(myMessage); // get rif of whitespaces
 
+//        Escape Sequences - including special characters in strings
+
+        String text = "Hello, \"Mosh\"";
+        System.out.println(text);
+
+        String path = "C:\\Windows\\...";
+        System.out.println(path);
+
+        // newLine
+        path = "C:\nWindows\\...";
+        System.out.println(path);
+
+        //tab
+        text = "Hello,\t\"Mosh\"";
+        System.out.println(text);
+
+
+
+
     }
 }
