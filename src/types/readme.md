@@ -31,3 +31,6 @@ Major difference b/n primitive and reference types
 
         When a primitive variable is declared, the value assigned to the variable would be stored in that memory location.
         When a reference type is used, the variable holds the address of the point object in memory, not the actual point object.
+
+Arrays
+Use arrays to store a list of items - numbers, people, messages, etc
