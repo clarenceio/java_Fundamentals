@@ -19,6 +19,10 @@ public class Array {
 
         int [] numbers = {2, 3, 5, 1, 4};
         System.out.println(numbers.length);  //fixed length
+//        System.out.println(Arrays.toString(numbers));
+
+//        sorting arrays
+        Arrays.sort(numbers) ;
         System.out.println(Arrays.toString(numbers));
     }
 }
