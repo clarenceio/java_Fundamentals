@@ -34,3 +34,5 @@ Major difference b/n primitive and reference types
 
 Arrays
 Use arrays to store a list of items - numbers, people, messages, etc
+
+Arrays have fixed size, hence, once created, additional items cannot be added nor removed
