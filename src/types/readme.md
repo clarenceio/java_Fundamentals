@@ -36,3 +36,7 @@ Arrays
 Use arrays to store a list of items - numbers, people, messages, etc
 
 Arrays have fixed size, hence, once created, additional items cannot be added nor removed
+
+Multi-Dimensional Arrays
+Can create a 2D array to store a matrix
+3D array to store data for a queue
