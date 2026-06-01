@@ -14,5 +14,12 @@ public class Variables {
         int myAge = 20;
         int herAge = myAge;
 
+//        constant variables - values can't be changed later
+        final float PI = 3.14F;   //use; 1. "final" keyword to declare constants 2.all caps to name constants
+//        PI = 4.1; //java: cannot assign a value to final variable PI
+        System.out.println(PI);
+
+
+
     }
 }
