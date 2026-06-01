@@ -24,5 +24,18 @@ public class Array {
 //        sorting arrays
         Arrays.sort(numbers) ;
         System.out.println(Arrays.toString(numbers));
+
+//         Multi - Dimensional Array
+        //2D -  a 2x3 matrix
+        int [][] digits = new int [2][3];   // 2 rows and 3 columns
+
+        //accessing individual items
+        digits[0][0] = 1;
+        System.out.println(Arrays.deepToString(digits)); //use deepToString to create print multi-dimensional arrays
+
+        int [][][] codes = new int[2][3][3] ; //last value[3] specifies the length of the dimension
+        codes [0][0][0] = 2;
+        System.out.println(Arrays.deepToString(codes));
+
     }
 }
