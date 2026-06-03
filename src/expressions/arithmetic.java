@@ -24,5 +24,10 @@ public class arithmetic {
         int z = ++x;      // x is incremented by 1 and then the value of x is copied to y
         System.out.println(x);
 
+//        Order of operations  -- BODMAS
+        int res = 10 + 3 * 2;
+        System.out.println(res);
+        res = (10 + 3 ) * 2;  //alter order priority using parenthesis
+        System.out.println(res);
     }
 }
