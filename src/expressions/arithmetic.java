@@ -12,8 +12,17 @@ public class arithmetic {
         System.out.println(mult);
 
         int div = 10 / 3;   //division of two whole numbers is a whole number
+        System.out.println(div);
         double divi = (double) 10 / (double) 3;
         System.out.println(divi);
+        System.out.println(" ");
+
+//        increment and decrement operators
+        int x = 1;
+        int y = x++;   //used on the right side of an assignment operator. value of is first copied to y and then x is incremented by 1
+        System.out.println(y);
+        int z = ++x;      // x is incremented by 1 and then the value of x is copied to y
+        System.out.println(x);
 
     }
 }
