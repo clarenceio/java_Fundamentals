@@ -56,7 +56,7 @@ public class MathClass {
         String perCent = percent.format(0.1); //
         System.out.println(perCent);
 
-            // use method chaining
+            // use method chaining - alternative simple technique
         String simpleRes = NumberFormat.getPercentInstance().format(0.12); //returns a string
         System.out.println(simpleRes);
 
