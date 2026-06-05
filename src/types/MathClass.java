@@ -1,5 +1,7 @@
 package types;
 
+import java.text.NumberFormat;
+
 public class MathClass {
     public static void main (String[] args) {
 //        round method
@@ -41,5 +43,9 @@ public class MathClass {
         int zeroRes = (int) Math.random() * 100;
         System.out.println(zeroRes); // returns 0. casting the round method to an int losses the fraction = 0 * 100
         zeroRes = (int) (Math.random() * 100);
+
+
+//        FORMATTING NUMBERS
+
+        }
     }
-}
