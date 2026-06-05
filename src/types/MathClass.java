@@ -18,6 +18,13 @@ public class MathClass {
         int newValue = (int)Math.floor(2.3F); //explicit casting in action
         System.out.println(newValue); // returns 2
 
+//        max and min
+        int newMax = Math.max(45, 56);  // has implementation for int, long, float, double
+        System.out.println(newMax);
+
+        int newMin = Math.min(45, 56);  // has implementation for int, long, float, double
+        System.out.println(newMin);
+
 
 
 
