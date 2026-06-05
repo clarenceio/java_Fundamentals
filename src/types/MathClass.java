@@ -55,5 +55,10 @@ public class MathClass {
         NumberFormat percent = NumberFormat.getPercentInstance();   // a factory method which creates an instance of the Number format - formats numbers as currencies
         String perCent = percent.format(0.1); //
         System.out.println(perCent);
+
+            // use method chaining
+        String simpleRes = NumberFormat.getPercentInstance().format(0.12); //returns a string
+        System.out.println(simpleRes);
+
         }
     }
