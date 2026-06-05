@@ -36,11 +36,29 @@ public class arithmetic {
         short a = 1;
         //an anonymous variable is allocated somewhere in memory - an int. value of a is copied into that space and add the 2 numbers
         int  b = x + 2;
+        System.out.println(b);
 
         // floats
         // an integer is less precise than double(with decimal points).So
         double c = 1.1;
         double d = c + 2;  //int is automatically is cast into a double
+        System.out.println(d);
 
+//        Explicit Casting
+        double e = 1.1;
+        int f = (int)e + 2;  // we want to return an int - use explicit casting [convert (e) into int].
+        System.out.println(f);
+
+        // Explicit casting only happens b/n compatible types directly. Use wrapper classes
+        String g = "1";
+        String i = "1.1";
+        Integer.parseInt(g); //wrapper class(reference type) for int - takes a string and returns an integer
+//        Short.parseShort(g);
+//        Float.parseFloat(g);
+
+        int h = Integer.parseInt(g) + 2;
+        double j = Double.parseDouble(i) + 2;  // store results in double
+
+//        this is done because input is always received as String
     }
 }
