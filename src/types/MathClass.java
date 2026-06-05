@@ -46,9 +46,14 @@ public class MathClass {
 
 
 //        FORMATTING NUMBERS
-//        NumberFormat currency = new NumberFormat() {  // NumberFormat is abstract hence, can't be instantiated
+//        NumberFormat percent = new NumberFormat() {  // NumberFormat is abstract hence, can't be instantiated
         NumberFormat currency = NumberFormat.getCurrencyInstance();   // a factory method which creates an instance of the Number format - formats numbers as currencies
         String ress = currency.format(1234567.891); //
         System.out.println(ress);
+
+        // percent
+        NumberFormat percent = NumberFormat.getPercentInstance();   // a factory method which creates an instance of the Number format - formats numbers as currencies
+        String perCent = percent.format(0.1); //
+        System.out.println(perCent);
         }
     }
