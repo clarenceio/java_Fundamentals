@@ -29,5 +29,18 @@ public class arithmetic {
         System.out.println(res);
         res = (10 + 3 ) * 2;  //alter order priority using parenthesis
         System.out.println(res);
+
+//        Type Casting and Conversion
+//        Implicit Casting - automatic conversion to a bigger data type. Happens when there's no chance for data loss.
+//        byte > short > int > long > float > double
+        short a = 1;
+        //an anonymous variable is allocated somewhere in memory - an int. value of a is copied into that space and add the 2 numbers
+        int  b = x + 2;
+
+        // floats
+        // an integer is less precise than double(with decimal points).So
+        double c = 1.1;
+        double d = c + 2;  //int is automatically is cast into a double
+
     }
 }
