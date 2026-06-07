@@ -13,7 +13,7 @@ public class ConditionalStatements {
             It's cold
          */
 
-        int temp = 12;
+        int temp = 22;
         if (temp > 30) {
             System.out.println("It's a hot day");
             System.out.println("Drink plenty of water");
@@ -24,6 +24,11 @@ public class ConditionalStatements {
         else {
             System.out.println("It's cold");
         }
+
+//        simplifying if statements
+        int income = 120_000;
+        boolean hasHighIncome = (income > 100_000);
+        System.out.println(hasHighIncome);
     }
 
 }
