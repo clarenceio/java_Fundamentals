@@ -12,6 +12,18 @@ public class ConditionalStatements {
         Otherwise
             It's cold
          */
+
+        int temp = 12;
+        if (temp > 30) {
+            System.out.println("It's a hot day");
+            System.out.println("Drink plenty of water");
+        }
+        else if (temp > 20) {
+            System.out.println("It's a nice day");
+        }                                                       //can do away with the {} if block has only one statement
+        else {
+            System.out.println("It's cold");
+        }
     }
 
 }
