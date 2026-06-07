@@ -27,8 +27,13 @@ public class ConditionalStatements {
 
 //        simplifying if statements
         int income = 120_000;
-        boolean hasHighIncome = (income > 100_000);
-        System.out.println(hasHighIncome);
+//        boolean hasHighIncome = (income > 100_000)
+//        System.out.println(hasHighIncome);
+
+        String className = income > 100_000 ? "First Class" : "Economy Class";
+        System.out.println(className);
+
+
     }
 
 }
