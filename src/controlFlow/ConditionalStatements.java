@@ -34,6 +34,20 @@ public class ConditionalStatements {
         System.out.println(className);
 
 
+
+//        Switch Statements - execute different parts of code depending on the value of the expression
+        String role = "guest";
+        switch (role) {
+            case "admin" :
+                System.out.println("You are an admin");
+                break;
+            case "moderator":
+                System.out.println("You are a moderator");
+                break;
+            default:
+                System.out.println("You are a guest");
+        }
+
     }
 
 }
