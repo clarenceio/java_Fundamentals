@@ -6,10 +6,17 @@ public class LogicalOperators {
         boolean isWarm = temperature > 20 && temperature < 30;  // both conditions must be true
         System.out.println(isWarm);
 
+        /*
         boolean hasHighIncome = true;
         boolean hasGoodCredit = true;
         boolean isEligible = hasHighIncome || hasGoodCredit;   // at least one condition must be true
         System.out.println(isEligible);
+        */
 
+        boolean hasHighIncome = false;
+        boolean hasGoodCredit = true;
+        boolean hasCriminalRecord = false;
+        boolean isEligible = (hasHighIncome || hasGoodCredit) && !hasCriminalRecord;  // the "not"(!) operator reverses the value
+        System.out.println(isEligible);
     }
 }
