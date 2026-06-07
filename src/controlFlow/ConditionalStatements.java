@@ -1,6 +1,17 @@
 package controlFlow;
 
 public class ConditionalStatements {
-    public static void main (String[] args) {}
+    public static void main (String[] args) {
+//        If statements - make decisions based on certain conditions
+        /*
+        If temp is greater than 30
+            It's a hot day
+            Drink plenty of water
+        Otherwise if it's between 20 and 30
+            It's a nice day
+        Otherwise
+            It's cold
+         */
+    }
 
 }
